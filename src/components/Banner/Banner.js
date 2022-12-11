@@ -20,26 +20,24 @@ const Banner = () => {
     }
 
     return (
-        <section className='my-[100px]'>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-md-12 col-12 d-flex align-items-center">
-                        <div class="banner-text">
-                            <small class="small-text d-flex justify-start">Welcome to <span class="mobile-block">my portfolio website!</span></small>
-                            <h1>
-                                Hey folks, I'm
-                                <span className='text-yellow'> Tasmia Rahman Maliha</span>
-                            </h1>
-                            <h3 class="d-flex justify-start">Web Developer</h3>
-                            <button onClick={handleDownload} className="btn custom-btn d-flex justify-start">
-                                Download Resume
-                            </button>
-                        </div>
+        <section className='my-[150px] mx-[75px]'>
+            <div class="flex lg:flex-row flex-col items-center">
+                <div class="lg:w-8/12">
+                    <div class="banner-text">
+                        <small class="small-text">Welcome to my portfolio website!</small>
+                        <h1>
+                            Hey folks, I'm
+                            <span className='text-yellow'> Tasmia Rahman Maliha</span>
+                        </h1>
+                        <h3 class="mb-3">Web Developer</h3>
+                        <button onClick={handleDownload} className="btn download-btn">
+                            Download Resume
+                        </button>
                     </div>
-                    <div class="col-lg-4 col-md-12 col-12 d-flex align-items-center">
-                        <div>
-                            <img src={bannerImg} class="img-fluid" alt="svg" />
-                        </div>
+                </div>
+                <div class="lg:w-4/12">
+                    <div>
+                        <img src={bannerImg} class="img-fluid" alt="svg" />
                     </div>
                 </div>
             </div>
