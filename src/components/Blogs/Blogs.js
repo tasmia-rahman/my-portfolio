@@ -2,10 +2,10 @@ import React from 'react';
 
 const Blogs = () => {
     return (
-        <div className='w-8/12 mx-auto mb-[100px]' id='blogs'>
+        <section className='w-[88%] mx-auto py-[50px]' id='blogs'>
             <h4 className='text-yellow'>Blogs</h4>
             <p>Coming Soon !!!</p>
-        </div>
+        </section>
     );
 };
 

@@ -6,7 +6,7 @@ import pic3 from '../../assets/images/pic3.png';
 
 const Projects = () => {
     return (
-        <div className='w-8/12 mx-auto mb-[100px]' id='projects'>
+        <section className='w-[88%] mx-auto py-[50px]' id='projects'>
             <h4 className='text-yellow mb-5'>Projects</h4>
             <div>
                 {/* Number 1 */}
@@ -147,7 +147,7 @@ const Projects = () => {
                     </div>
                 </article>
             </div>
-        </div>
+        </section>
     );
 };
 

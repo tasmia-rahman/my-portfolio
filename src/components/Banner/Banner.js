@@ -20,7 +20,7 @@ const Banner = () => {
     }
 
     return (
-        <section className='my-[150px] mx-[75px]'>
+        <section className='w-[88%] mx-auto pt-[150px] pb-[75px]'>
             <div class="flex lg:flex-row flex-col items-center">
                 <div class="lg:w-8/12">
                     <div class="banner-text">

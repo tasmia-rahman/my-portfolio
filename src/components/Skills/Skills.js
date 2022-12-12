@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <div id='skills' className='my-[100px]'>
+        <section id='skills' className='py-[50px]'>
             <div class="w-full mx-auto px-4 lg:w-6/12">
                 HTML
                 <div class="mb-8 flex items-center">
@@ -66,7 +66,7 @@ const Skills = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 
