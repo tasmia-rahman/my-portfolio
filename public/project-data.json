@@ -1,0 +1,140 @@
+[
+    {
+        "id": 1,
+        "name": "SwapDeal",
+        "title": "Laptop reselling website",
+        "mainTechnologies": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Firebase",
+            "Tailwind CSS",
+            "Stripe"
+        ],
+        "technologies": [
+            "React",
+            "React Router",
+            "React Query",
+            "Firebase",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Tailwind CSS",
+            "React Bootstrap",
+            "Stripe",
+            "axios",
+            "react-helmet-async",
+            "react-hot-toast",
+            "react-icons"
+        ],
+        "description": [
+            "SwapDeal is based on laptop reselling.",
+            "There can be three types of user for this admin. These are: admin, seller and buyer. They have different authorities.",
+            "On the homepage, a user can see differnt categories and advertised products.",
+            "By clicking any category, user redirects to that particular category based product page where a buyer can book a product by giving necessary information or can report that product to admin.",
+            "On the dashboard of buyer, buyer can see the orders he made and can pay for that order by giving card details.",
+            "A seller can add his products and see the products in seller's dashboard. Also can advertise or delete any product.",
+            "Admin can see all sellers and buyers, and also reported items which he can delete if needed. Admin also can verify any seller.",
+            "There is also a blog page where blogs are shown."
+        ],
+        "githubClientLink": "https://github.com/tasmia-rahman/swapdeal-client-side",
+        "githubServerLink": "https://github.com/tasmia-rahman/swapdeal-server-side",
+        "websiteLink": "https://swapdeal-12.web.app/",
+        "date": "Nov 30, 2022",
+        "pics": [
+            "https://i.ibb.co/TYx2thF/pic1.png",
+            "https://i.ibb.co/zbXk5Zd/pic2.png",
+            "https://i.ibb.co/SRSGbrr/pic3.png",
+            "https://i.ibb.co/ZfqNS8x/pic4.png",
+            "https://i.ibb.co/pZbgJVY/pic5.png",
+            "https://i.ibb.co/7vj7KjR/pic6.png"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Visapress",
+        "title": "Visa and Immigration Consultancy",
+        "mainTechnologies": [
+            "React",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Firebase",
+            "Tailwind CSS"
+        ],
+        "technologies": [
+            "React",
+            "React Router",
+            "Firebase",
+            "Node",
+            "Express",
+            "MongoDB",
+            "JWT",
+            "Tailwind CSS",
+            "React Bootstrap",
+            "react-helmet-async",
+            "react-hot-toast",
+            "react-icons",
+            "react-photo-view"
+        ],
+        "description": [
+            "VisaPress website is based on visa and immigration services.",
+            "On the services page, many visa and immigration services are displayed to offer to the users.",
+            "By clicking any individual service, user can see that service details page where possible details of the service is displayed.",
+            "On the service detail page, there are also a review section where a user can see others's reviews of that particular service.",
+            "User can also add a review but for that he must be logged in first.",
+            "For login, user must have to register once.",
+            "After login, user can view my reviews page where reviews of that particular user are only shown.",
+            "User can edit a review or delete a review.",
+            "Also any logged in user can add a service on add service page.",
+            "There is also a blog page where blogs are shown."
+        ],
+        "githubClientLink": "https://github.com/tasmia-rahman/visapress-client-side",
+        "githubServerLink": "https://github.com/tasmia-rahman/visapress-server-side",
+        "websiteLink": "https://visapress-11.web.app/",
+        "date": "Nov 10, 2022",
+        "pics": []
+    },
+    {
+        "id": 3,
+        "name": "TeachMe",
+        "title": "Learning Platform",
+        "mainTechnologies": [
+            "React",
+            "Node",
+            "Express",
+            "Tailwind CSS",
+            "Firebase"
+        ],
+        "technologies": [
+            "React",
+            "React Router",
+            "Firebase",
+            "Node",
+            "Express",
+            "Tailwind CSS",
+            "React Bootstrap",
+            "react-hot-toast",
+            "react-icons",
+            "react-to-pdf"
+        ],
+        "description": [
+            "TeachMe website is based on popular programming language courses.",
+            "On the courses page, many courses are displayed to offer to the users.",
+            "By clicking any individual course, user can see the course details page where possible details of the course is displayed.",
+            "On the course detail page, user can download relevant pdf of that course by clicking download icon.",
+            "User can get premium access of any course by clicking the get premium access button, but for that user should have to login first.",
+            "For login, user must have to register once.",
+            "There is also a blog page where blogs are shown and a FAQ page."
+        ],
+        "githubClientLink": "https://github.com/tasmia-rahman/teachme-client-side",
+        "githubServerLink": "https://github.com/tasmia-rahman/teachme-server-side",
+        "websiteLink": "https://teachme-10.web.app/",
+        "date": "Oct 27, 2022",
+        "pics": []
+    }
+]
