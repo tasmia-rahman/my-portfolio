@@ -1,14 +1,14 @@
 import React from 'react';
 import './About.css';
 import { HiUser, HiCalendar, HiMail, HiPhone, HiHeart, HiAcademicCap } from "react-icons/hi";
-import edit2 from '../../assets/images/edit2.png';
+import IMG from '../../assets/images/IMG.png';
 
 const About = () => {
     return (
         <section className='w-[88%] mx-auto pt-[75px] pb-[50px]' id='about'>
             <div className='flex items-center space-between'>
                 <div className='w-9/12 mt-12'>
-                    <img src={edit2} alt='Me' />
+                    <img src={IMG} alt='Me' />
                 </div>
                 <div className='pl-16'>
                     <div>
