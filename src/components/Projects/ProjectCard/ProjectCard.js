@@ -32,7 +32,7 @@ const ProjectCard = ({ project }) => {
                 </div>
 
                 <div className='flex justify-center mt-4'>
-                    <a href={websiteLink} target='_blank' className='mr-3 px-4 py-1 bg-grey text-white rounded-2xl no-underline'>Visit</a>
+                    <a href={websiteLink} className='mr-3 px-4 py-1 bg-grey text-white rounded-2xl no-underline'>Visit</a>
                     <a href={`project/${id}`} className='px-3 py-1 bg-grey text-white rounded-2xl no-underline'>Details</a>
                 </div>
             </div>
