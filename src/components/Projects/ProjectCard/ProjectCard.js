@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
     const { id, name, title, mainTechnologies, websiteLink, date, pics } = project;
@@ -33,7 +34,7 @@ const ProjectCard = ({ project }) => {
 
                 <div className='flex justify-center mt-4'>
                     <a href={websiteLink} className='mr-3 px-4 py-1 bg-grey text-white rounded-2xl no-underline'>Visit</a>
-                    <a href={`project/${id}`} className='px-3 py-1 bg-grey text-white rounded-2xl no-underline'>Details</a>
+                    <Link to={`project/${id}`} className='px-3 py-1 bg-grey text-white rounded-2xl no-underline'>Details</Link>
                 </div>
             </div>
         </article>
