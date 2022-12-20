@@ -5,10 +5,12 @@ import Contact from '../Contact/Contact';
 import Projects from '../Projects/Projects/Projects';
 import Skills from '../Skills/Skills';
 import Banner from './../Banner/Banner';
+import Header from './../Shared/Header/Header';
 
 const Home = () => {
     return (
         <div>
+            <Header></Header>
             <Banner></Banner>
             <About></About>
             <Skills></Skills>

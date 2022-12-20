@@ -21,7 +21,6 @@ export const routes = createBrowserRouter([
                 path: '/project/:id',
                 element: <ProjectDetails></ProjectDetails>
             }
-
         ]
     },
     {
