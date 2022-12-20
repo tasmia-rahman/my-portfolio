@@ -3,10 +3,11 @@ import { Link } from 'react-router-dom';
 
 const ProjectCard = ({ project }) => {
     const { id, name, title, mainTechnologies, websiteLink, date, pics } = project;
+
     return (
         <article class="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
             <img
-                alt="Office"
+                alt="Project"
                 src={pics[0]}
                 class="h-56 w-full object-center"
             />

@@ -1,6 +1,6 @@
 [
     {
-        "id": 1,
+        "id": "1",
         "name": "SwapDeal",
         "title": "Laptop reselling website",
         "mainTechnologies": [
@@ -30,6 +30,7 @@
             "react-hot-toast",
             "react-icons"
         ],
+        "shortDescription": "SwapDeal is a second hand laptop reselling website where admin, seller and buyer; three types of user existed to interact with the application according to their respective authority. I have delevloped this application using MERN stack: React as frontend, Node, Express as backend, and MongoDB as database.",
         "description": [
             "SwapDeal is based on laptop reselling.",
             "There can be three types of user for this admin. These are: admin, seller and buyer. They have different authorities.",
@@ -54,7 +55,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": "2",
         "name": "Visapress",
         "title": "Visa and Immigration Consultancy",
         "mainTechnologies": [
@@ -81,8 +82,9 @@
             "react-icons",
             "react-photo-view"
         ],
+        "shortDescription": "Visapress is a visa and immigration service based application. Here any new services can be added, also user can review any service and can see other's reviews as well. I have delevloped this application using MERN stack: React as frontend, Node, Express as backend, and MongoDB as database.",
         "description": [
-            "VisaPress website is based on visa and immigration services.",
+            "VisaPress is based on visa and immigration services.",
             "On the services page, many visa and immigration services are displayed to offer to the users.",
             "By clicking any individual service, user can see that service details page where possible details of the service is displayed.",
             "On the service detail page, there are also a review section where a user can see others's reviews of that particular service.",
@@ -106,7 +108,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": "3",
         "name": "TeachMe",
         "title": "Learning Platform",
         "mainTechnologies": [
@@ -128,8 +130,9 @@
             "react-icons",
             "react-to-pdf"
         ],
+        "shortDescription": "TeachMe is a learning platform where multiple programming language courses are offered and user can get the premium access of any course by sign up. I have delevloped this application using React as frontend, Node, Express as backend.",
         "description": [
-            "TeachMe website is based on popular programming language courses.",
+            "TeachMe is based on popular programming language courses.",
             "On the courses page, many courses are displayed to offer to the users.",
             "By clicking any individual course, user can see the course details page where possible details of the course is displayed.",
             "On the course detail page, user can download relevant pdf of that course by clicking download icon.",
