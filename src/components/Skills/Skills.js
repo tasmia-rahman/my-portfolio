@@ -3,7 +3,7 @@ import './Skills.css';
 
 const Skills = () => {
     return (
-        <section id='skills' className='py-[50px]'>
+        <section id='skills' className='py-6 lg:py-[50px]'>
             <div class="w-full mx-auto px-4 lg:w-6/12">
                 HTML
                 <div class="mb-8 flex items-center">

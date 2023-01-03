@@ -32,13 +32,13 @@ const ProjectDetails = () => {
             <div className='w-9/12 mx-auto mb-5'>
                 <h1 className='text-center my-5 font-bold text-gray-700'>{selectedProject?.name}</h1>
                 <h5 className='mb-3'>Project Links</h5>
-                <div className='flex justify-between items-center mb-4'>
-                    <div>
-                        <a href={selectedProject?.githubClientLink} className='mr-3 px-4 py-2 bg-grey text-white rounded-2xl no-underline'>Client Code</a>
-                        <a href={selectedProject?.githubServerLink} className='mr-3 px-4 py-2 bg-grey text-white rounded-2xl no-underline'>Server Code</a>
-                        <a href={selectedProject?.websiteLink} className='mr-3 px-4 py-2 bg-grey text-white rounded-2xl no-underline'>Live Site</a>
+                <div className='flex flex-col lg:flex-row justify-between items-center mb-4'>
+                    <div className='flex flex-col lg:flex-row space-y-3'>
+                        <a href={selectedProject?.githubClientLink} className='mr-3 mt-2 px-4 py-[6px] bg-grey text-white rounded-2xl no-underline'>Client Code</a>
+                        <a href={selectedProject?.githubServerLink} className='mr-3 mt-2 px-4 py-[6px] bg-grey text-white rounded-2xl no-underline'>Server Code</a>
+                        <a href={selectedProject?.websiteLink} className='mr-3 mt-2 px-4 py-[6px] bg-grey text-white rounded-2xl no-underline'>Live Site</a>
                     </div>
-                    <a href='#gallery' className='flex items-center px-4 py-[6px] bg-grey text-white rounded-2xl no-underline'>
+                    <a href='#gallery' className='flex items-center mt-2 px-4 py-[6px] bg-grey text-white rounded-2xl no-underline'>
                         See Gallery
                         <FaAngleDown className='ml-1 mt-1'></FaAngleDown>
                     </a>

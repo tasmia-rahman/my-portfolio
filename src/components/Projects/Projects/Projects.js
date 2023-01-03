@@ -14,9 +14,9 @@ const Projects = () => {
     }, [])
 
     return (
-        <section className='w-[88%] mx-auto py-[50px]' id='projects'>
+        <section className='w-[88%] mx-auto py-6 lg:py-[50px]' id='projects'>
             <h3 className='text-yellow mb-3'>Projects</h3>
-            <div className='grid grid-col-1 lg:grid-cols-3 gap-x-10'>
+            <div className='grid grid-col-1 lg:grid-cols-3 gap-10'>
                 {
                     projects?.map(project => <ProjectCard key={project.id} project={project}></ProjectCard>)
                 }

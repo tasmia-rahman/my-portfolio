@@ -5,12 +5,12 @@ import IMG from '../../assets/images/IMG.png';
 
 const About = () => {
     return (
-        <section className='w-[88%] mx-auto pt-[75px] pb-[50px]' id='about'>
+        <section className='w-[88%] mx-auto py-8 lg:pt-[75px] lg:pb-[50px]' id='about'>
             <div className='flex items-center space-between'>
-                <div className='w-9/12 mt-12'>
+                <div className='w-9/12 mt-12 hidden lg:block'>
                     <img src={IMG} alt='Me' />
                 </div>
-                <div className='pl-16'>
+                <div className='lg:pl-16'>
                     <div>
                         <small className='text-yellow'>About Myself</small>
                         <h3>About Me, I'm a Web Developer</h3>
