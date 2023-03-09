@@ -29,7 +29,7 @@ const Banner = () => {
                             Hey folks, I'm
                             <span className='text-yellow'> Tasmia Rahman Maliha</span>
                         </h1>
-                        <h3 class="mb-3">Web Developer</h3>
+                        <h3 class="mb-3">MERN Developer</h3>
                         <button onClick={handleDownload} className="btn download-btn">
                             Download Resume
                         </button>
